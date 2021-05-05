@@ -1,0 +1,57 @@
+html{
+    box-sizing: border-box;
+}
+
+li,
+ul{
+    list-style: none;
+    margin-bottom: 0;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.navbar-brand > img {
+    height: 32px;
+    width: 32px;
+}
+.card {
+    margin-bottom: 2rem;
+}
+footer{
+    padding: 2rem 0;
+    margin-top: 2rem;
+    text-align: center;
+}
+footer p {
+    margin: 0;
+}
+
+.menu__inner{
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.menu__nav-link{
+    display: inline-block;
+    margin-right: 10px;
+    transition: all .3s;
+}
+.menu__nav-link :hover{
+      color: #1a8b9f;
+}
+
+
+.card-item img {
+    width: 100%;
+}
+
+#dopMenu a {
+    color: #212529;
+    text-decoration: none;
+}
+
+
